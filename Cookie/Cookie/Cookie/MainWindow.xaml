@@ -1,0 +1,19 @@
+﻿<Window x:Class="Cookie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cookie"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Cookie" Height="356" Width="426">
+    <Grid>
+        <Button Content="Cadastar Cookie" x:Name="btnCadastrar" Click="BtnCadastrar_Click" HorizontalAlignment="Left" Margin="49,129,0,0" VerticalAlignment="Top" Width="144" Height="48"/>
+        <Button Content="Listar Cookies" Click="BtnListar_Click" x:Name="btnListar" HorizontalAlignment="Left" Margin="229,129,0,0" VerticalAlignment="Top" Width="144" Height="48"/>
+        <Button Content="Importar Arquivo" Click="BtnArquivo_Importar_Click" x:Name="btnArquivo_Importar" HorizontalAlignment="Left" Margin="49,210,0,0" VerticalAlignment="Top" Width="324" Height="48"/>
+        <TextBlock HorizontalAlignment="Left" Margin="131,39,0,0" TextWrapping="Wrap"
+                   Text="Cookies" VerticalAlignment="Top" FontSize="36" FontWeight="Bold"/>
+        <Button Content="Exportar Arquivo" Click="BtnArquivo_Exportar_Click" x:Name="btnArquivo_Exportar" HorizontalAlignment="Left" Margin="49,263,0,0" VerticalAlignment="Top" Width="324" Height="48"/>
+
+    </Grid>
+</Window>
